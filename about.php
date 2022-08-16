@@ -92,7 +92,11 @@ fclose($fp);
     <ol id="about" class="org">
         <h2>About</h2>
         <p>挨拶文</p>
-        <p>右にスクロールすると閲覧できるリストについて</p>
+        <br/>
+        <p>Contact
+            <a href="https://creative-community.space/org/" target="_blank">ORG</a>
+            <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
+        </p>
         <hr/>
         <h2>News</h2>
         <?php if (!empty($rows)): ?>
@@ -114,11 +118,6 @@ fclose($fp);
             <p>本文</p>
         </li>
         <?php endif; ?>
-        <br/>
-        <p>Contact
-            <a href="https://creative-community.space/org/" target="_blank">ORG</a>
-            <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
-        </p>
     </ol>
 
     <script src="index.js"></script>
