@@ -62,11 +62,11 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: red;
-            --hover-color: blue;
-            --border-style: 1px dashed green;
-            --bg-color: yellow;
-            --list-bg: transparent;
+            --text-color: OrangeRed;
+            --hover-color: LightSalmon;
+            --border-style: 1px dashed Indigo;
+            --bg-color: DarkCyan;
+            --list-bg: SpringGreen;
             --list-text: green;
             --org-text: blue;
             --org-bg: green;
@@ -80,7 +80,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Courier New", Courier, monospace;
+            font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
         }
         
         #greeting #text,
@@ -88,7 +88,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "Arial Narrow", Arial, sans-serif;
+            font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
             font-weight: 500;
         }
         
@@ -124,7 +124,7 @@ fclose($fp);
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
             background: #fff;
-            border: solid 2px red;
+            border: solid 2px Salmon;
         }
         
         .change .mousedragscrollable::-webkit-scrollbar-track,
