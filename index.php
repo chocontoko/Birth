@@ -325,8 +325,8 @@ fclose($fp);
                         <label for="film" class="label">Film Cam</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="iphone" id="iphone">
-                        <label for="iphone" class="label">iPhone</label>
+                        <input type="radio" name="org" value="phone" id="phone">
+                        <label for="phone" class="label">Phone</label>
                     </li>
     <!--
                     <li>
