@@ -62,11 +62,11 @@ fclose($fp);
     <link rel="stylesheet" href="cover.css" />
     <style>
         :root {
-            --text-color: red;
-            --hover-color: blue;
-            --border-style: 1px dashed green;
-            --bg-color: yellow;
-            --list-bg: transparent;
+            --text-color: OrangeRed;
+            --hover-color: LightSalmon;
+            --border-style: 1px dashed Indigo;
+            --bg-color: Chocolate;
+            --list-bg: DarkCyan;
             --list-text: green;
             --org-text: blue;
             --org-bg: green;
