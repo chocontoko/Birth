@@ -90,12 +90,14 @@ fclose($fp);
 
 <body>
     <ol id="about" class="org">
-        <h2>About</h2>
-        <p>挨拶文</p>
+        <h2>Welcome to my Website</h2>
+        <p>こちらのサイトを閲覧している人は、chocontokoの活動や生態をもっと知りたい人ではないだろうか。
+　　　　　　　だが、このwebsiteはchocontokoが遺したビジュアルや言葉によってあなた自身がどう感じるかを
+　　　　　　　導くために使ってほしい。他の人が見ていることをあまり想定せず、気ままに投稿していくよ。</p>
         <br/>
         <p>Contact
-            <a href="https://creative-community.space/org/" target="_blank">ORG</a>
-            <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/chocontoko/" target="_blank">instagram</a>
+            <a href="choco@fuji.waseda.jp" target="_blank">e-mail</a>
         </p>
         <hr/>
         <h2>News</h2>
