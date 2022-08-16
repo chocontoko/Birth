@@ -78,7 +78,7 @@ fclose($fp);
 
 <body>
     <ol class="org">
-        <h2>リスト</h2>
+        <h2>Dialy</h2>
         <p class="update">
         Last Modified : 
             <?php
@@ -89,7 +89,7 @@ fclose($fp);
         </p>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
-        <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
+        <li class="list_item list_toggle"">
             <p>
                 <u><?=h($row[0])?></u>
                 <b><?=h($row[1])?></b>
@@ -100,10 +100,10 @@ fclose($fp);
         <?php else: ?>
         <li class="list_item list_toggle" data-org="test">
             <p>
-                <u>品種</u>
-                <b>品目</b>
+                <u>日付</u>
+                <b>題目</b>
             </p>
-            <p>説明文</p>
+            <p>本文</p>
         </li>
         <?php endif; ?>
     </ol>
