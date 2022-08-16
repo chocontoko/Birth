@@ -7,7 +7,7 @@ $(document).ready(function(event) {
         Tone.context.resume();
     });
 
-    volume = new Tone.Volume(-10);
+    volume = new Tone.Volume(-25);
     synth = new Tone.PolySynth(10, Tone.Synth).chain(volume, Tone.Master);
     notes = Tone.Frequency("F4").harmonize([1, 6, 1, 8, 0, 3]);
 });
