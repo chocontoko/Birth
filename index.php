@@ -423,7 +423,7 @@ fclose($fp);
         $(function() {
             $("#about").load("about.php");
             $("#diary").load("diary/index.php");
-            $("#img").load("img/index.php");
+            $("#img").load("img.php");
         })
     </script>
 </body>
