@@ -306,7 +306,7 @@ fclose($fp);
 
     <header id="header">
         <marquee id="marquee">
-            ここをクリックすると、（）が所有するもの一覧が表示されます。
+            🔎🔎🔎 crick here for more⋙⋙⋙⋙crick here for more⋙⋙⋙⋙🌐🌐🌐
         </marquee>
         <nav id="nav">
             <h1>no fact, only interpretation</h1>
