@@ -313,7 +313,7 @@ fclose($fp);
             ここをクリックすると、（）が所有するもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>This Must Be the Place</h1>
+            <h1>no fact, only interpretation</h1>
             <span id="presents">
                 <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
@@ -334,19 +334,19 @@ fclose($fp);
                     </li>
                     <li>
                         <input type="radio" name="org" value="made" id="made">
-                        <label for="made" class="label">Other</label>
+                        <label for="made" class="label">Diary</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="collaborations" id="collaborations">
-                        <label for="collaborations" class="label">collaborations</label>
+                        <label for="collaborations" class="label">About</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="other" id="other">
-                        <label for="other" class="label">other</label>
+                        <label for="other" class="label">Contact</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="sale" id="sale">
-                        <label for="sale" class="label">$$$ FOR SALE $$$</label>
+                        <label for="sale" class="label">News</label>
                     </li>
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
