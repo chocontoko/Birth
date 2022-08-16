@@ -27,12 +27,12 @@ fclose($fp);
 <html lang="ja">
 
 <head>
-    <title>Title | The Things I (We) Own</title>
+    <title>no fact, only interpretation</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <meta name="author" content="creative-community.space">
-    <meta name="description" content="___">
+    <meta name="author" content="chozenkosaka">
+    <meta name="description" content="youareHERE">
 
     <meta property="og:title" content="___" />
     <meta property="og:description" content="___" />
@@ -313,28 +313,28 @@ fclose($fp);
             ここをクリックすると、（）が所有するもの一覧が表示されます。
         </marquee>
         <nav id="nav">
-            <h1>ホームページのタイトル</h1>
+            <h1>This Must Be the Place</h1>
             <span id="presents">
                 <img src="https://creative-community.space/org/qr.png" width="50rem">
             </span>
             <form>
                 <ol class="search-box">
-                    <li>絞り込み</li>
+                    <li>camera</li>
                     <li>
                         <input type="radio" name="org" value="bought" id="bought">
-                        <label for="bought" class="label">bought</label>
+                        <label for="bought" class="label">Degitalcam</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="gift" id="gift">
-                        <label for="gift" class="label">gift</label>
+                        <label for="gift" class="label">Filmcam</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="free" id="free">
-                        <label for="free" class="label">free or found</label>
+                        <label for="free" class="label">Phone</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="made" id="made">
-                        <label for="made" class="label">made</label>
+                        <label for="made" class="label">Other</label>
                     </li>
                     <li>
                         <input type="radio" name="org" value="collaborations" id="collaborations">
@@ -351,7 +351,7 @@ fclose($fp);
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
                     </li>
-                </ol>
+                </oal>
             </form>
         </nav>
     </header>
