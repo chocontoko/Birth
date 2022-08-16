@@ -108,7 +108,8 @@ fclose($fp);
 
         #DegitalCam:checked~label,
         #FilmCam:checked~label,
-        #PhonePhotos:checked~label {
+        #PhonePhotos:checked~label,
+        #ScreenShot:checked~label {
             text-decoration: double underline;
         }
         
@@ -327,6 +328,10 @@ fclose($fp);
                     <li>
                         <input type="radio" name="org" value="PhonePhotos" id="PhonePhotos">
                         <label for="PhonePhotos" class="label">Phone</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="org" value="ScreenShot" id="ScreenShot">
+                        <label for="ScreenShot" class="label">Screen Shot</label>
                     </li>
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
