@@ -80,7 +80,7 @@ fclose($fp);
         .reset-button,
         .collection p,
         marquee {
-            font-family: "Courier New", Courier, monospace;
+            font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
         }
         
         #greeting #text,
@@ -88,7 +88,7 @@ fclose($fp);
         h1,
         h2,
         .collection h2 {
-            font-family: "Arial Narrow", Arial, sans-serif;
+            font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
             font-weight: 500;
         }
         
