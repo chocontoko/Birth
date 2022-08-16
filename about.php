@@ -116,10 +116,10 @@ fclose($fp);
         </li>
         <?php endif; ?>
         <br/>
-        <p>Contact
+        <h2>Contact
             <a href="https://creative-community.space/org/" target="_blank">ORG</a>
             <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
-        </p>
+        </h2>
     </ol>
 
     <script src="index.js"></script>
