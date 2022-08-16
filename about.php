@@ -92,8 +92,8 @@ fclose($fp);
     <ol id="about" class="org">
         <h2>Welcome to my Website</h2>
         <p>こちらのサイトを閲覧している人は、chocontokoの活動や生態をもっと知りたい人ではないだろうか。
-　　　　　　　<br/>だが、このwebsiteはchocontokoが遺したビジュアルや言葉によってあなた自身がどう感じるかを
-　　　　　　　<br/>導くために使ってほしい。他の人が見ていることをあまり想定せず、気ままに投稿していくよ。</p>
+　　　　　　　<br/>だが、このwebsiteはchocontokoが遺したビジュアルや言葉によってあなた自身がどう感じるかを導くために使ってほしい。
+　　　　　　　<br/>他の人が見ていることをあまり想定せず、気ままに投稿していくよ。</p>
         <br/>
         <p>Contact
             <a href="https://www.instagram.com/chocontoko/" target="_blank">instagram</a>
