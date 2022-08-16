@@ -54,7 +54,7 @@ fclose($fp);
     <script src="https://creative-community.space/coding/js/tone/StartAudioContext.js"></script>
     <script src="https://creative-community.space/coding/js/mousedragscrollable/scrollable.js"></script>
     <script src="https://creative-community.space/org/searchBox.js"></script>
-    <script src="sound.js"></script>
+    <script src="index.js"></script>
 
     <link rel="stylesheet" href="https://creative-community.space/org/index.css" />
     <link rel="stylesheet" href="https://creative-community.space/org/searchBox.css" />
