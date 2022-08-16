@@ -328,12 +328,6 @@ fclose($fp);
                         <input type="radio" name="org" value="PhonePhotos" id="PhonePhotos">
                         <label for="PhonePhotos" class="label">Phone</label>
                     </li>
-    <!--
-                    <li>
-                        <input type="radio" name="org" value="sale" id="sale">
-                        <label for="sale" class="label">News</label>
-                    </li>
-    -->
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
                     </li>
@@ -381,8 +375,8 @@ fclose($fp);
         </div>
         <ul class="mousedragscrollable">
             <li id="about" class="collection"></li>
-            <li id="diary" class="collection"></li>
             <li id="img" class="collection"></li>
+            <li id="diary" class="collection"></li>
         </ul>
     </main>
 
