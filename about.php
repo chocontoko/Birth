@@ -6,7 +6,7 @@ $org = (string)filter_input(INPUT_POST, 'org');
 $title = (string)filter_input(INPUT_POST, 'title');
 $text = (string)filter_input(INPUT_POST, 'text');
 
-$fp = fopen('about.csv', 'a+b');
+$fp = fopen('news.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
     fputcsv($fp, [$org, $title, $text,]);
