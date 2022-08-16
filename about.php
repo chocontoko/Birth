@@ -95,10 +95,9 @@ fclose($fp);
         <p>右にスクロールすると閲覧できるリストについて</p>
         <hr/>
         <h2>News</h2>
-        <br/>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
-        <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
+        <li class="list_item list_toggle">
             <p>
                 <u><?=h($row[0])?></u>
                 <b><?=h($row[1])?></b>
@@ -109,10 +108,10 @@ fclose($fp);
         <?php else: ?>
         <li class="list_item list_toggle" data-org="test">
             <p>
-                <u>ORG</u>
-                <b>カテゴリ名</b>
+                <u>日付</u>
+                <b>題名</b>
             </p>
-            <p>カテゴリの説明</p>
+            <p>本文</p>
         </li>
         <?php endif; ?>
         <br/>
