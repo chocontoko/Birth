@@ -66,7 +66,7 @@ fclose($fp);
             --hover-color: LightSalmon;
             --border-style: 1px dashed Indigo;
             --bg-color: DarkCyan;
-            --list-bg: Chocolate;
+            --list-bg: SpringGreen;
             --list-text: green;
             --org-text: blue;
             --org-bg: green;
@@ -124,7 +124,7 @@ fclose($fp);
         .change .mousedragscrollable::-webkit-scrollbar-thumb,
         .change .mousedragscrollable li::-webkit-scrollbar-thumb {
             background: #fff;
-            border: solid 2px red;
+            border: solid 2px Salmon;
         }
         
         .change .mousedragscrollable::-webkit-scrollbar-track,
