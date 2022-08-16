@@ -97,7 +97,7 @@ fclose($fp);
         <br/>
         <p>Contact
             <a href="https://www.instagram.com/chocontoko/" target="_blank">instagram</a>
-            <a href="choco@fuji.waseda.jp" target="_blank">e-mail</a>
+            <a href="mailto:choco@fuji.waseda.jp" target="_blank">e-mail</a>
         </p>
         <hr/>
         <h2>News</h2>
