@@ -106,9 +106,9 @@ fclose($fp);
             display: block;
         }
 
-        #digital:checked~label,
-        #film:checked~label,
-        #iphone:checked~label {
+        #DegitalCam:checked~label,
+        #FilmCam:checked~label,
+        #PhonePhotos:checked~label {
             text-decoration: double underline;
         }
         
@@ -317,16 +317,16 @@ fclose($fp);
                 <ol class="search-box">
                     <li>Camera</li>
                     <li>
-                        <input type="radio" name="org" value="digital" id="digital">
-                        <label for="digital" class="label">Digital Cam</label>
+                        <input type="radio" name="org" value="DegitalCam" id="DegitalCam">
+                        <label for="DegitalCam" class="label">Digital Cam</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="film" id="film">
-                        <label for="film" class="label">Film Cam</label>
+                        <input type="radio" name="org" value="FilmCam" id="FilmCam">
+                        <label for="FilmCam" class="label">Film Cam</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="phone" id="phone">
-                        <label for="phone" class="label">Phone</label>
+                        <input type="radio" name="org" value="PhonePhotos" id="PhonePhotos">
+                        <label for="PhonePhotos" class="label">Phone</label>
                     </li>
     <!--
                     <li>
