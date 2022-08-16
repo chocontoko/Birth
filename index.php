@@ -305,7 +305,6 @@ fclose($fp);
 <body id="open">
 
     <header id="header">
-        <a class="_more" onclick="more()">?</a>
         <marquee id="marquee">
             ここをクリックすると、（）が所有するもの一覧が表示されます。
         </marquee>
