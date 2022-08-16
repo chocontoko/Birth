@@ -106,13 +106,9 @@ fclose($fp);
             display: block;
         }
 
-        #bought:checked~label,
-        #gift:checked~label,
-        #free:checked~label,
-        #made:checked~label,
-        #collaborations:checked~label,
-        #other:checked~label,
-        #sale:checked~label {
+        #digital:checked~label,
+        #film:checked~label,
+        #iphone:checked~label {
             text-decoration: double underline;
         }
         
@@ -319,35 +315,25 @@ fclose($fp);
             </span>
             <form>
                 <ol class="search-box">
-                    <li>camera</li>
+                    <li>Camera</li>
                     <li>
-                        <input type="radio" name="org" value="bought" id="bought">
-                        <label for="bought" class="label">Degitalcam</label>
+                        <input type="radio" name="org" value="digital" id="digital">
+                        <label for="digital" class="label">Digital Cam</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="gift" id="gift">
-                        <label for="gift" class="label">Filmcam</label>
+                        <input type="radio" name="org" value="film" id="film">
+                        <label for="film" class="label">Film Cam</label>
                     </li>
                     <li>
-                        <input type="radio" name="org" value="free" id="free">
-                        <label for="free" class="label">Phone</label>
+                        <input type="radio" name="org" value="iphone" id="iphone">
+                        <label for="iphone" class="label">iPhone</label>
                     </li>
-                    <li>
-                        <input type="radio" name="org" value="made" id="made">
-                        <label for="made" class="label">Diary</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="org" value="collaborations" id="collaborations">
-                        <label for="collaborations" class="label">About</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="org" value="other" id="other">
-                        <label for="other" class="label">Contact</label>
-                    </li>
+    <!--
                     <li>
                         <input type="radio" name="org" value="sale" id="sale">
                         <label for="sale" class="label">News</label>
                     </li>
+    -->
                     <li class="reset">
                         <input type="reset" name="reset" value="View All" class="reset-button label" onclick="greeting()">
                     </li>
@@ -395,7 +381,7 @@ fclose($fp);
         </div>
         <ul class="mousedragscrollable">
             <li id="about" class="collection"></li>
-            <li id="test" class="collection"></li>
+            <li id="diary" class="collection"></li>
             <li id="img" class="collection"></li>
         </ul>
     </main>
@@ -436,7 +422,7 @@ fclose($fp);
 
         $(function() {
             $("#about").load("about.php");
-            $("#test").load("test/index.php");
+            $("#diary").load("diary/index.php");
             $("#img").load("img.php");
         })
     </script>

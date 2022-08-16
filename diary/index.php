@@ -3,13 +3,13 @@ function h($str) {
     return htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
 }
 $org = (string)filter_input(INPUT_POST, 'org');
-$title = (string)filter_input(INPUT_POST, 'title');
+$name = (string)filter_input(INPUT_POST, 'name');
 $text = (string)filter_input(INPUT_POST, 'text');
 
-$fp = fopen('about.csv', 'a+b');
+$fp = fopen('list.csv', 'a+b');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     flock($fp, LOCK_EX);
-    fputcsv($fp, [$org, $title, $text,]);
+    fputcsv($fp, [$org, $name, $text]);
     rewind($fp);
 }
 
@@ -28,51 +28,34 @@ fclose($fp);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <style>
-        :root {
-            --about-bg: #fff;
-            --about-decoration: blue wavy underline;
-            --about-a: blue;
-        }
 
-        #about {
+        .org {
             position: relative;
-            color: var(--text-color);
-            background-color: var(--about-bg);
+            color: var(--list-text);
+            background-color: var(--list-bg);
         }
 
-        #about hr {
-            margin: 2rem 0 1rem;
-            border: none;
-            border-bottom: var(--border-style);
-        }
-
-        #about h2 {
+        .org h2 {
             padding: 1rem 1rem 0.25rem;
         }
 
-        #about p {
+        .org p {
             font-size: 0.75rem;
             margin: 0;
-            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            padding: 0.25rem 0.5rem;
             font-weight: 500;
             display: block;
             transform: scale(1, 1.25);
         }
-        
-        #about p a {
-            display: inline-block;
-            margin-left: 0.25rem;
-            color: var(--about-a);
-            text-decoration: var(--about-decoration);
-        }
-        
-        #about p b {
+
+        .org p b {
             font-size: 150%;
             display: inline-block;
         }
-        
-        #about p u {
+
+        .org p u {
             float: right;
             text-transform: uppercase;
             font-size: 75%;
@@ -85,17 +68,25 @@ fclose($fp);
             border-radius: 0.25rem;
             display: block;
         }
+
+        .org .update {
+            color: var(--update-text);
+            padding: 0.25rem 1rem 1.25rem;
+        }
     </style>
 </head>
 
 <body>
-    <ol id="about" class="org">
-        <h2>About</h2>
-        <p>挨拶文</p>
-        <p>右にスクロールすると閲覧できるリストについて</p>
-        <hr/>
-        <h2>News</h2>
-        <br/>
+    <ol class="org">
+        <h2>リスト</h2>
+        <p class="update">
+        Last Modified : 
+            <?php
+            $mod = filemtime('list.csv');
+            date_default_timezone_set('Asia/Tokyo');
+            print "".date("r",$mod);
+            ?>
+        </p>
         <?php if (!empty($rows)): ?>
         <?php foreach ($rows as $row): ?>
         <li class="list_item list_toggle" data-org="<?=h($row[0])?>">
@@ -109,20 +100,13 @@ fclose($fp);
         <?php else: ?>
         <li class="list_item list_toggle" data-org="test">
             <p>
-                <u>ORG</u>
-                <b>カテゴリ名</b>
+                <u>品種</u>
+                <b>品目</b>
             </p>
-            <p>カテゴリの説明</p>
+            <p>説明文</p>
         </li>
         <?php endif; ?>
-        <br/>
-        <p>Contact
-            <a href="https://creative-community.space/org/" target="_blank">ORG</a>
-            <a href="https://github.com/the-things-i-we-own" target="_blank">GitHub</a>
-        </p>
     </ol>
-
-    <script src="index.js"></script>
 </body>
 
 </html>
