@@ -34,7 +34,7 @@ Diaryの項目を編集（書き方 : 日付,"題目","本文",）
 ・12行目：音色変更 (書き方 : notes = Tone.Frequency("〇〇 ←A~G の 1~10 で音色を指定").harmonize([○, ○ ← 数字, 数字, 数字 と記述し、音階を指定知る]);)
 
 
-*　　
+
 
 
 # index.php （[index.php](https://github.com/chocontoko/Workshop/blob/main/index.php)）
