@@ -4,23 +4,35 @@
 
 
 ## about.php
-ウェブページの説明文（92行以降）
+92行以降：ページの説明文を記述する
 ## [news.csv](https://github.com/chocontoko/Workshop/blob/main/news.csv)
 Newsの項目を編集（書き方 : 日付,"題目","本文",）
 
 
 ## [img.csv](https://github.com/chocontoko/Workshop/blob/main/img.csv)
+
 カバービジュアル／写真付きリストの写真を編集 (書き方 : 絞り込み項目,画像サイズ,"題目","説明文",)
+
+※カバービジュアルには25行目までが表示される（1行目から順に画像は上に重なって表示される）
+
+※写真付きリストには、img.csvに記述したすべての写真が表示される
 
 
 ## [diary/list.csv](https://github.com/chocontoko/Workshop/blob/main/diary/list.csv)
+
 Diaryの項目を編集（書き方 : 日付,"題目","本文",）
+
+※日記は、1行目から順に、上から下に表示される
 
 
 ## [index.js](https://github.com/chocontoko/Workshop/blob/main/index.js)
+
 操作音を変更する
-・10行目 ボリューム変更 (書き方 : volume = new Tone.Volume(-〇←数字を変更する);)
-・12行目 音色変更 (書き方 : notes = Tone.Frequency("〇〇 ←A~G の 1~10 で音色を指定").harmonize([○, ○ ← 数字, 数字, 数字 と記述し、音階を指定知る]);)
+
+・10行目：ボリューム変更 (書き方 : volume = new Tone.Volume(-〇←数字を変更する);)
+
+・12行目：音色変更 (書き方 : notes = Tone.Frequency("〇〇 ←A~G の 1~10 で音色を指定").harmonize([○, ○ ← 数字, 数字, 数字 と記述し、音階を指定知る]);)
+
 
 *　　
 
