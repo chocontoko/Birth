@@ -4,7 +4,7 @@
 
 
 ## about.php
-ウェブページの説明文（92行以降）｜改行は <br/> 
+ウェブページの説明文（92行以降）
 ## [news.csv](https://github.com/chocontoko/Workshop/blob/main/news.csv)
 Newsの項目を編集（書き方 : 日付,"題目","本文",）
 
