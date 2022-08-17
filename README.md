@@ -63,10 +63,8 @@ Diaryの項目を編集（書き方 : 日付,"題目","本文",）
 絵文字検索：[https://www.amp-what.com/](https://www.amp-what.com/)
 
 
+____
 
-GitHub
-[https://github.com/the-things-i-we-own](https://github.com/the-things-i-we-own)
+GitHub Team [https://github.com/orgs/the-things-i-we-own/teams/org](https://github.com/orgs/the-things-i-we-own/teams/org)
 
-
-GitHub Team
-https://github.com/orgs/the-things-i-we-own/teams/org
+↑ 質問などは、リンク先にコメント下さい。
