@@ -1,67 +1,55 @@
-# org
-**https://creative-community.space/org/**
+# [org](https://creative-community.space/org/)
 
 ## This Page
-https://creative-community.space/org/chocontoko/
+[https://creative-community.space/org/chocontoko/](https://creative-community.space/org/chocontoko/)
 
 
 ## about.php
-ウェブページの説明文／絞り込みカテゴリーについてを記述するPHPファイル
-## about.csv
-絞り込みカテゴリーについてを記述するCSVファイル
-## img.csv
-カバービジュアル／写真付きリストに表示する内容を記述するCSVファイル
-## img.php
-所有するものを画像付きで掲載するリストページのPHPファイル
-## cover.css
-カバービジュアルをスタイリングするCSSファイル
-## test/index.php 
-所有するものリスト用CSVファイルを出力するPHPファイル（必要なリスト用のファイルを複製）
-## __/list.csv
-所有するものリスト用CSVファイル
-## index.css
-ホームページをスタイリングするCSS
-## index.js
-ページの説明文／操作音を設定するジャバスクリプトファイル
+ウェブページの説明文（92行以降）｜改行は <br/> 
+## [news.csv](https://github.com/chocontoko/Workshop/blob/main/news.csv)
+Newsの項目を編集（書き方 : 日付,"題目","本文",）
+
+
+## [img.csv](https://github.com/chocontoko/Workshop/blob/main/img.csv)
+カバービジュアル／写真付きリストの写真を編集 (書き方 : 絞り込み項目,画像サイズ,"題目","説明文",)
+
+
+## [diary/list.csv](https://github.com/chocontoko/Workshop/blob/main/diary/list.csv)
+Diaryの項目を編集（書き方 : 日付,"題目","本文",）
+
+
+## [index.js](https://github.com/chocontoko/Workshop/blob/main/index.js)
+操作音を変更する
+・10行目 ボリューム変更 (書き方 : volume = new Tone.Volume(-〇←数字を変更する);)
+・12行目 音色変更 (書き方 : notes = Tone.Frequency("〇〇 ←A~G の 1~10 で音色を指定").harmonize([○, ○ ← 数字, 数字, 数字 と記述し、音階を指定知る]);)
 
 *　　
 
 
-# index.php
+# index.php （[index.php](https://github.com/chocontoko/Workshop/blob/main/index.php)）
 
-> header > title | meta 編集
-> 
-> body > ._more | #marquee | #nav を編集
-> 
-> body > .mousedragscrollable | script > $("#__").load("__/index.php"); を編集
-> 
+色を指定
+> 64行目以降の色の名前を、[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/) を参考に記述する
+> スクロールバーの色は、126行目 (background: カラーネーム;)／スクロールバーの囲い線は127行目（border: solid 2px カラーネーム;）
 
+フォントの指定
+> 91行目：ページタイトル・サブタイトルなどの文字フォントを記述する
+> 83行目：流れる文字・絞り込み・日記などの文字フォントを記述する
+> ※ フォントの記述方法は、[https://www.cssfontstack.com/](https://www.cssfontstack.com/) を参照
 
-*CSS Text & Color*
+トップページの表示を編集
+> 308行目：流れる文字を記述する
+> 312行目：ページタイトルを記述する
 
-フォント一覧
-
-https://www.cssfontstack.com/
-
-https://mimi.moe.in/nmp/fonts/allfonts
-
-https://fonts.google.com/
-
-
-カラーチャート
-
-https://fromkato.com/color
-
-https://htmlcolorcodes.com/color-names/
 
 
 参考ツール
 
-https://picular.co/
+カラーネーム一覧：[https://htmlcolorcodes.com/color-names/](https://htmlcolorcodes.com/color-names/)
 
-https://pigment.shapefactory.co/
+フォント一覧：[https://www.cssfontstack.com/](https://www.cssfontstack.com/)
 
-https://colorable.jxnblk.com/
+絵文字検索：[https://www.amp-what.com/](https://www.amp-what.com/)
 
 
 
