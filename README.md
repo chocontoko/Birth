@@ -65,10 +65,8 @@ Diaryの項目を編集（書き方 : 日付,"題目","本文",）
 
 
 GitHub
-
 [https://github.com/the-things-i-we-own](https://github.com/the-things-i-we-own)
 
 
 GitHub Team
-
 https://github.com/orgs/the-things-i-we-own/teams/org
