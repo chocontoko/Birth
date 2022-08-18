@@ -106,10 +106,7 @@ fclose($fp);
             display: block;
         }
 
-        #DegitalCam:checked~label,
-        #FilmCam:checked~label,
-        #PhonePhotos:checked~label,
-        #ScreenShot:checked~label {
+        input:checked~label {
             text-decoration: double underline;
         }
         
